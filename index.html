@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>Gazanda!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -26,6 +26,18 @@
         }
       }
 
+      /* Background image */
+      @media (min-width: 751px) {
+        body {
+          background-image: url('http://i.imgur.com/uk2dKxE.jpg');
+        }
+      }
+      @media (max-width: 750px) {
+        body {
+          background-image: url('http://i.imgur.com/FccTWUY.jpg');
+        }
+      }
+
       /* Landscape phones and down */
       @media (max-width: 480px) {
         .copy {
@@ -46,8 +58,11 @@
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       }
       .heading, .subheading {
+        text-shadow: 2px 2px 3px #000000;
+        filter: dropshadow(color=#000000, offx=2, offy=2);
         font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center; 
+        text-align: center;
+        color: #FFFFFF;
       }
       p.lead {
         padding-top: 1.5%;
@@ -61,6 +76,7 @@
 
       /* Video pitch and Action */
       .pitch {
+        color: #FFFFFF;
         padding: 2.5% 0%;
       }
       .order {
@@ -79,6 +95,9 @@
 
       /* Marketing Copy and Footer */
       .copy {
+        text-shadow: 2px 2px 3px #000000;
+        filter: dropshadow(color=#000000, offx=2, offy=2);
+        color: #FFFFFF;
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         text-align: justify;
@@ -109,7 +128,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Bitstarter</a>
+          <a class="brand" href="#">Gazanda!</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -124,12 +143,12 @@
     <div class="container">
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Gazananda</h1>
+          <h1>Gazanda!</h1>
         </div>
       </div>
       <div class="row-fluid subheading">
         <div class="span12">
-          <p class="lead">This is my first bitstarter project.</p>
+          <p class="lead">Make it the best outing right now!</p>
         </div>
       </div>
       <div class="row-fluid pitch">
@@ -141,12 +160,12 @@
             <div class="statistics">
               <div class="span4">
                 <div class="linediv-l">
-                  <h3>1000</h3> <p>backers</p>
+                  <h3>0</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$0</h3> <p>of $20,000</p>
                 </div>
               </div>
               <div class="span4">
@@ -202,12 +221,12 @@
               <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse"
                    data-parent="#accordion2" href="#collapseOne">
-                  What does FAQ stand for?
+                  What is Gazanda!?
                 </a>
               </div>
               <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
-                  Frequently Asked Question.
+                  It's a map that shows you all the best places to be at in real time.
                 </div>
               </div>
             </div>
@@ -215,12 +234,37 @@
               <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse"
                    data-parent="#accordion2" href="#collapseTwo">
-                  What's a Frequently Asked Question?
+                  Why is Gazanda! better than other map services?
                 </a>
               </div>
               <div id="collapseTwo" class="accordion-body collapse">
                 <div class="accordion-inner">
-                  A question which is commonly asked by users.
+                  Other map services aren't focused on your fun! We will make an effort to get you real time feedback and deals so you can have the best outting ever! 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse"
+                   data-parent="#accordion2" href="#collapseThree">
+                  Do I get discounts for using Gazanda?
+                </a>
+              </div>
+              <div id="collapseThree" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  Gazanda! will help you to locate the best prices and businesses will be able to offer you special deals in real time. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse"
+                   data-parent="#accordion2" href="#collapseFour">
+                  How do I know if anything on the map is any good before I get there?               </a>
+              </div>
+              <div id="collapseFour" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  Gazanda! will share reviews and ratings by other users who have been to these places.
                 </div>
               </div>
             </div>
